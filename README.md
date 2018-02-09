@@ -39,11 +39,11 @@ We assume a directed graph, whose nodes are represented by integer values (nodeI
 
 ### Modified Independent Cascade Model
 In the independent cascade model, an active node **n** will activate its neighbors **N(n)** with probabilities that are provided by the edges connecting **n** to each neighbor. For this assignment, we make two modifications to this original model, which we refer to as the _modified independent cascade model_, as follows:
-* For simplicity, all activation probabilities are the same for the entire graph and specified through the `prob_x` parameter at command line.  
-* For reproducibility, the activation of a node given a certain probability happens in a deterministic way, as follows. Assume the node of interest is **nodeID** and that the probability of activation is specified as **1/px**. In that case, node nodeID is **activated if (nodeID % px) == 0** (i.e., nodeID is a multiple of px, determined using the modulo operator); nodeID is not activated otherwise.   
+* For simplicity, all activation probabilities are the same for the entire graph and specified through the `px` parameter at command line.  
+* For reproducibility, the activation of a node given a certain probability happens in a deterministic way, as follows. Assume the node of interest is **nodeID** and that the probability of activation is specified as **1/px**. In that case, node nodeID will be **activated if (nodeID % px) == 0** (i.e., if nodeID is a multiple of px, determined using the modulo operator); nodeID will not be activated otherwise.   
 
 ### Computation
-You program should read its parameters, read in the graph input file (graph.csv), and create a graph using the `networkx` library. For every node in the graph you should compute which nodes will be activated if that node is the initial source and we are using the modified independent cascade model. Parameter `px` means that the probability of activation will be 1/px; we use the modulo operator described earlier to determine if a node should become active or not. 
+You program should read its parameters, read in the graph input file (`graph.csv`), and create a graph using the `networkx` library. For every node in the graph you should compute which nodes will be activated if that node is the initial source and we are using the modified independent cascade model. Parameter `px` means that the probability of activation will be 1/px; we use the modulo operator described earlier to determine if a node should become active or not. 
 
 
 ### Output (results.csv)
