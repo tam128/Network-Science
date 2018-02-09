@@ -64,7 +64,7 @@ python3 compute_active.py graph.csv 1 results1.csv
 
 And here's another sample output file from the following execution:
 ```
-python3 compute_active.py graph.csv 2 results.csv
+python3 compute_active.py graph.csv 2 results2.csv
 1,4
 5,4
 6,3
