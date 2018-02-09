@@ -4,7 +4,7 @@
 > Course: **[CS 1656 - Introduction to Data Science](http://cs1656.org)** (CS 2056) -- Spring 2018    
 > Instructor: [Alexandros Labrinidis](http://labrinidis.cs.pitt.edu)  
 > 
-> Assignment: #2.  
+> Assignment: #2. Network Science  
 > Released: February 8, 2018  
 > **Due:      February 20, 2018**
 
@@ -98,4 +98,3 @@ For this assignment, you must use the repository that was created for you after 
 * 48 hours after the first deadline (for submissions that are two days late / -15 points). 
 
 Our assumption is that everybody will submit on the first deadline. If you want us to consider a late submission, you need to email us at `cs1656-staff@cs.pitt.edu`
-
