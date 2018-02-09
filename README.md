@@ -47,7 +47,7 @@ You program should read its parameters, read in the graph input file (`graph.csv
 
 
 ### Output (results.csv)
-Once the computation completes for all nodes, the results are written in the specified output file (results.csv). Each row should be in the format:
+Once the computation completes for all nodes, the results are written in the specified output file (`results.csv`). Each row should be in the format:
 ```nodeID, num_activations```
 (i.e., you should have one row per nodeID). You should make sure the results are sorted in descending order of activations (i.e., highest first). In case of ties, you should use the nodeID as a tiebreaker: smaller nodeID values are listed earlier in the output. You are asked to overwrite the file if it exists already.
 
