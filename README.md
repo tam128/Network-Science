@@ -53,7 +53,7 @@ Once the computation completes for all nodes, the results are written in the spe
 
 Here's a sample output file from the following execution:
 ```
-python3 compute_active.py graph.csv 1 results.csv
+python3 compute_active.py graph.csv 1 results1.csv
 3,6
 1,5
 5,4
